@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.menu{
+    width: 100wv;
+    height: 70px;
+    background-color: red;
+    padding: 19px 0 0;
+}
+li{
+    display: inline;
+    margin: 0 150px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 23px;
+}
+a:hover{
+    color: white;
+}
+
+.card{
+    transition: 0.8s;
+    padding: 18px 19px;
+    height: 250px;
+    width: 350px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    border-style: solid;
+    margin: 8px 40px;
+    display: inline-block;
+    
+}
+.card:hover{
+    background-color: rgb(135, 136, 138);
+    color: white;
+    /* transform: translate(-10, 10); */
+    /* transform: skew(-30deg); */
+    /* transform: rotate(90deg); */
+    transform: scale(1.05);
+}
+
+
+
+p{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 15px;
+    font-style: oblique;
+}
+.pay{
+    margin: 20px 0 0 0;
+    text-decoration: underline;
+    font-weight: 900;
+    color: red;
+}
+.collumn{
+    display: inline-block;
+    margin: 20px 200px;
+}
+#foot:hover{
+    color: whitesmoke;
+}
+footer{
+    background-color: darkgreen;
+    margin: 1350px 0px 0px 0px;
+}
+img{
+    width: 35px;
+    height: 35px;
+    margin: 5px;    
+}
+img:hover{
+    background-image: url("fb.png");
+}
+#1{
+    background-image: url("fb_gray.png");
+}
+#2{
+    background-image: url("fb_gray.png");
+}
+#3{
+    background-image: url("fb_gray.png");
+}
+#1:hover{
+    background-image: url("fb.png");
+}
+#2:hover{
+    background-image: url("insta.png");
+}
+#3:hover{
+    background-image: url("youtube.png");
+}
